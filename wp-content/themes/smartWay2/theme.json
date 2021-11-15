@@ -1,0 +1,91 @@
+{
+  "version": 1,
+  "settings": {
+    "layout": {
+      "wideSize": "1440px"
+    },
+    "color": {
+      "palette": [
+        {
+          "name": "Primary",
+          "slug": "primary",
+          "color": "#f09949"
+        },
+        {
+          "name": "Secondary",
+          "slug": "secondary",
+          "color": "#F2C091"
+        },
+        {
+          "name": "Dark",
+          "slug": "dark",
+          "color": "#161616"
+        },
+        {
+          "name": "Dark2",
+          "slug": "dark2",
+          "color": "#2d2d2d"
+        },
+        {
+          "name": "Light",
+          "slug": "light",
+          "color": "#F9FAFB"
+        }
+      ]
+    },
+    "typography": {
+      "fontSizes": [
+        {
+          "name": "Small",
+          "slug": "small",
+          "size": "0.875rem"
+        },
+        {
+          "slug": "regular",
+          "name": "Regular",
+          "size": "1.5rem"
+        },
+        {
+          "slug": "large",
+          "name": "Large",
+          "size": "1.125rem"
+        },
+        {
+          "slug": "xl",
+          "name": "XL",
+          "size": "1.25rem"
+        },
+        {
+          "slug": "xxl",
+          "name": "2XL",
+          "size": "1.5rem"
+        },
+        {
+          "slug": "xxxl",
+          "name": "3XL",
+          "size": "1.875rem"
+        },
+        {
+          "slug": "4xl",
+          "name": "4XL",
+          "size": "2.25rem"
+        },
+        {
+          "slug": "5xl",
+          "name": "5XL",
+          "size": "3rem"
+        },
+        {
+          "slug": "6xl",
+          "name": "6XL",
+          "size": "3.75rem"
+        },
+        {
+          "slug": "7xl",
+          "name": "7XL",
+          "size": "4.5rem"
+        }
+      ]
+    }
+  }
+}
