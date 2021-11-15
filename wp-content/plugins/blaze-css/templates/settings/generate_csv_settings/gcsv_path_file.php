@@ -1,0 +1,2 @@
+<input id="<?php echo $id ?>" name="<?php echo $name ?>" type="text" value="<?php echo esc_attr( $this->get_option('gcsv_path_file') ) ?>" />
+<p>This is relative to your wp-content directory (<?php echo WP_CONTENT_DIR ?>). <br/>Example: uploads/file.csv or themes/yourtheme/purge.csv</p>

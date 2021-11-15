@@ -18,7 +18,7 @@
 	<?php do_action( 'tailpress_header' ); ?>
 
 
-	<header class=" fixed w-full z-30 shadow-sm " style="background:#161616;">
+	<header class=" fixed w-full z-30" style="">
 
 		<div class="mx-auto container">
 			<div class="nav lg:flex lg:justify-between lg:items-center ">
@@ -67,7 +67,7 @@
 				);
 				?>
 				
-				<a href="" class="hidden lg:block border-2 border-orange rounded-full font-bold text-orange px-4 py-3 transition duration-300 ease-in-out hover:bg-orange hover:text-white mr-6"><i class="fas fa-mobile-alt"></i> +38 050 927 50 86</a>
+				<a href="" class="hidden lg:block border-2 border-green rounded-full font-bold text-green px-4 py-3 transition duration-300 ease-in-out hover:bg-green hover:text-white mr-6"><i class="fas fa-mobile-alt"></i> +38 050 927 50 86</a>
 			</div>
 		</div>
 	</header>
