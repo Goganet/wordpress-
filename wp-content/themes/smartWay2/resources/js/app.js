@@ -15,3 +15,13 @@ $(document).ready(function(){
 	});
 });
 
+// add header color
+$(window).scroll(function() {    
+      let scroll = $(window).scrollTop();    
+      if (scroll <= 20) {
+          $("header").removeClass("color-header");
+      }
+      else {
+          $("header").addClass("color-header");
+      }
+    });

@@ -25,7 +25,7 @@
 				<div class="flex justify-between items-center">
 				<div class="my-2">
 					<?php if (is_front_page()) : ?>
-						<img class="max-h-20 h-auto" src="<?php echo wp_get_attachment_image_url( carbon_get_theme_option( 'site_logo' ), 'full') ; ?>" alt="SmartWay">
+						<img class="max-h-16 lg:max-h-20 h-auto" src="<?php echo wp_get_attachment_image_url( carbon_get_theme_option( 'site_logo' ), 'full') ; ?>" alt="SmartWay">
 					<?php else : ?>
 						<a href="<?php echo get_home_url(); ?>"><img class="max-h-20 h-auto" src="<?php echo wp_get_attachment_image_url( carbon_get_theme_option( 'site_logo' ), 'full') ; ?>" alt="SmartWay"></a>
 					<?php endif ?>
