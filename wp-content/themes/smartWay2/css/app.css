@@ -885,6 +885,10 @@ video {
   grid-auto-flow: row;
 }
 
+.grid-flow-col{
+  grid-auto-flow: column;
+}
+
 .grid-flow-row-dense{
   grid-auto-flow: row dense;
 }
@@ -1121,6 +1125,22 @@ video {
   padding-top: 5rem;
 }
 
+.pt-32{
+  padding-top: 8rem;
+}
+
+.pt-72{
+  padding-top: 18rem;
+}
+
+.pt-48{
+  padding-top: 12rem;
+}
+
+.pt-24{
+  padding-top: 6rem;
+}
+
 .pb-10{
   padding-bottom: 2.5rem;
 }
@@ -1152,6 +1172,11 @@ video {
 .text-4xl{
   font-size: 2.25rem;
   line-height: 2.5rem;
+}
+
+.text-lg{
+  font-size: 1.125rem;
+  line-height: 1.75rem;
 }
 
 .text-5xl{
@@ -1696,12 +1721,20 @@ h1, h2, h3, h4, h5, h6 {
     width: 75%;
   }
 
+  .md\:grid-flow-row{
+    grid-auto-flow: row;
+  }
+
   .md\:grid-cols-12{
     grid-template-columns: repeat(12, minmax(0, 1fr));
   }
 
   .md\:grid-cols-2{
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .md\:grid-cols-3{
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
   .md\:flex-row{
@@ -1718,6 +1751,14 @@ h1, h2, h3, h4, h5, h6 {
 
   .md\:justify-end{
     justify-content: flex-end;
+  }
+
+  .md\:pt-48{
+    padding-top: 12rem;
+  }
+
+  .md\:pt-24{
+    padding-top: 6rem;
   }
 
   .md\:text-3xl{
@@ -1813,5 +1854,15 @@ h1, h2, h3, h4, h5, h6 {
   .lg\:text-6xl{
     font-size: 3.75rem;
     line-height: 1;
+  }
+
+  .lg\:text-4xl{
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+
+  .lg\:text-3xl{
+    font-size: 1.875rem;
+    line-height: 2.25rem;
   }
 }

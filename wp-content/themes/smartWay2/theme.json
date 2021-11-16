@@ -13,12 +13,12 @@
 
             {
                 "slug": "radial-right",
-                "gradient": "radial-gradient(circle at 78% 66%, rgba(50, 100, 12, 1) 0%, rgba(11, 20, 3, 1) 72%)",
+                "gradient": "radial-gradient(circle at 79% 53%, rgba(50, 100, 12, 1) 0%, rgba(11, 20, 3, 1) 20%)",
                 "name": "Radial right"
             },
             {
                 "slug": "radial-left",
-                "gradient": "radial-gradient(circle at 20% 43%, rgba(50, 100, 12, 1) 0%, rgba(11, 20, 3, 1) 25%)",
+                "gradient": "radial-gradient(circle at 20% 45%, rgba(50, 100, 12, 1) 0%, rgba(11, 20, 3, 1) 20%)",
                 "name": "Radial left"
             }
           ],
