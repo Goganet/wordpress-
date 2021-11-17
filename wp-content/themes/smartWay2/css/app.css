@@ -869,16 +869,16 @@ video {
   resize: both;
 }
 
-.list-none{
-  list-style-type: none;
-}
-
 .list-disc{
   list-style-type: disc;
 }
 
 .list-decimal{
   list-style-type: decimal;
+}
+
+.list-none{
+  list-style-type: none;
 }
 
 .grid-flow-row{
@@ -999,6 +999,11 @@ video {
   border-color: rgba(50, 100, 12, var(--tw-border-opacity));
 }
 
+.bg-dark{
+  --tw-bg-opacity: 1;
+  background-color: rgba(11, 20, 3, var(--tw-bg-opacity));
+}
+
 .bg-white{
   --tw-bg-opacity: 1;
   background-color: rgba(255, 255, 255, var(--tw-bg-opacity));
@@ -1011,11 +1016,6 @@ video {
 
 .bg-transparent{
   background-color: transparent;
-}
-
-.bg-dark{
-  --tw-bg-opacity: 1;
-  background-color: rgba(11, 20, 3, var(--tw-bg-opacity));
 }
 
 .bg-primary{
@@ -1101,6 +1101,11 @@ video {
   padding-right: 0.75rem;
 }
 
+.py-5{
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
 .pb-5{
   padding-bottom: 1.25rem;
 }
@@ -1147,6 +1152,10 @@ video {
 
 .text-center{
   text-align: center;
+}
+
+.text-right{
+  text-align: right;
 }
 
 .text-xl{
@@ -1213,6 +1222,11 @@ video {
   line-height: 1.25;
 }
 
+.text-blue-500{
+  --tw-text-opacity: 1;
+  color: rgba(59, 130, 246, var(--tw-text-opacity));
+}
+
 .text-gray-900{
   --tw-text-opacity: 1;
   color: rgba(17, 24, 39, var(--tw-text-opacity));
@@ -1241,11 +1255,6 @@ video {
 .text-gray-700{
   --tw-text-opacity: 1;
   color: rgba(55, 65, 81, var(--tw-text-opacity));
-}
-
-.text-blue-500{
-  --tw-text-opacity: 1;
-  color: rgba(59, 130, 246, var(--tw-text-opacity));
 }
 
 .antialiased{
@@ -1357,8 +1366,29 @@ video {
   transition: .5s;
 }
 
-.arrow-up .material-icons:hover{
+.arrow-up .material-icons:hover, .arrow-up-sm .material-icons:hover{
   transform: rotate(90deg);
+  transition: .5s;
+}
+
+.arrow-up-sm .material-icons{
+  font-size: 50px;
+  transform: rotate(45deg);
+  position: relative;
+  bottom: -14px;
+  transition: .5s;
+}
+
+.arrow-up-sm-rev .material-icons{
+  font-size: 50px;
+  transform: rotate(-45deg);
+  position: relative;
+  bottom: -14px;
+  transition: .5s;
+}
+
+.arrow-up-sm-rev .material-icons:hover{
+  transform: rotate(-90deg);
   transition: .5s;
 }
 
@@ -1759,6 +1789,10 @@ h1, h2, h3, h4, h5, h6 {
 
   .md\:pt-24{
     padding-top: 6rem;
+  }
+
+  .md\:pt-10{
+    padding-top: 2.5rem;
   }
 
   .md\:text-3xl{

@@ -51,8 +51,26 @@
     bottom: -21px;
 	transition: .5s;
 }
-.arrow-up .material-icons:hover{
+.arrow-up .material-icons:hover, .arrow-up-sm .material-icons:hover{
     transform: rotate(90deg);
+	transition: .5s;
+}
+.arrow-up-sm .material-icons{
+	font-size: 50px;
+    transform: rotate(45deg);
+    position: relative;
+    bottom: -14px;
+	transition: .5s;	
+}
+.arrow-up-sm-rev .material-icons{
+	font-size: 50px;
+    transform: rotate(-45deg);
+    position: relative;
+    bottom: -14px;
+	transition: .5s;	
+}
+.arrow-up-sm-rev .material-icons:hover{
+    transform: rotate(-90deg);
 	transition: .5s;
 }
 /* *********** */

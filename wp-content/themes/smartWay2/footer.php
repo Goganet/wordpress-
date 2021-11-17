@@ -13,11 +13,11 @@
 		<div class="md:col-span-4 grid  px-2">
 			<h2 class="text-white text-2xl text-center mb-3">Про Нас</h2>
 			<div class="bg-brown p-5 rounded-2xl h-96 grid place-content-around">
-				<p class="justify-self-center text-center  text-white text-md pb-5">Вироби художньої ковки для вашого дому.</p>
+				<p class="justify-self-center text-center  text-white text-md pb-5">РОЗУМНІ РІШЕННЯ ДЛЯ ВІДНОВЛЮВАНОЇ ЕНЕРГІЇ</p>
 				<div class="grid place-content-center"><?php if (is_front_page()) : ?>
 					<img class="max-h-44 h-auto"
 						src="<?php echo wp_get_attachment_image_url( carbon_get_theme_option( 'footer_logo' ), 'full') ; ?>"
-						alt="художня Ковка">
+						alt="jump LTD">
 					<?php else : ?>
 					<a href="<?php echo get_home_url(); ?>"><img class="max-h-44 h-auto"
 							src="<?php echo wp_get_attachment_image_url( carbon_get_theme_option( 'footer_logo' ), 'full') ; ?>"
@@ -54,7 +54,7 @@
 		<div class="md:col-span-5 ">
 			<h2 class="text-white text-2xl mt-10 md:mt-0 mb-3 grid place-content-center ">Де Ми Працюємо</h2>
 			<iframe class="h-96  px-2 filter grayscale opacity-90 "
-				src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d42266.17764820575!2d22.95792562463229!3d48.54020513981529!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4739bb075a24be6b%3A0x56b4d8fa5fa4c656!2z0KHQstCw0LvRj9Cy0LAsINCX0LDQutCw0YDQv9Cw0YLRgdGM0LrQsCDQvtCx0LvQsNGB0YLRjA!5e0!3m2!1suk!2sua!4v1636123960377!5m2!1suk!2sua"
+				src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d42571.240065272636!2d23.254493571299683!3d48.173814681813205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47382942d614ea4b%3A0xaa893106721838a2!2sKhust%2C%20Zakarpattia%20Oblast%2C%2090401!5e0!3m2!1sen!2sua!4v1637161172472!5m2!1sen!2sua"
 				width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 
 			<!-- <div class=" footer-menu w-full flex justify-center md:justify-end py-3 text-blight">
